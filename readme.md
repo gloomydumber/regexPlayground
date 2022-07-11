@@ -269,6 +269,7 @@ _YaYaYa_ 라는 단어가 있다면, 가장 제일 뒤 2글자 부분을 제외�
 const regex = /(?:https?:\/\/)?(?:www\.)?youtu.be\/([a-zA-Z0-9-]{11})/;
 const url = "https://www.youtu.be/-ZClicWm0zM";
 url.match(regex);
+url.text(regex);
 ```
 
 ## References
